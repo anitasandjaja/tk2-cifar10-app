@@ -58,7 +58,7 @@ with st.sidebar:
         f"Macro F1: {info['macro_f1']:.3f}"
     )
     threshold = st.slider(
-        "Batas keyakinan", 0.0, 1.0, 0.5, 0.05,
+        "Batas keyakinan", 0.0, 1.0, 0.8, 0.05,
         help="Di bawah nilai ini aplikasi menandai prediksi sebagai 'ragu-ragu'.",
     )
     st.markdown("**10 kelas yang dikenali:**")
