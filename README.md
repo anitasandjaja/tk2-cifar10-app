@@ -30,7 +30,6 @@ Browser terbuka di `http://localhost:8501`.
 2. Buka https://share.streamlit.io → **Create app** → pilih repo tadi, branch `main`, file `app.py`.
 3. Di **Advanced settings**, pilih Python **3.11** atau **3.12**.
 4. Klik **Deploy**. Build pertama ±3–5 menit karena harus memasang TensorFlow.
-5. Salin link `https://<nama-app>.streamlit.app` ke laporan.
 
 > Kalau muncul error saat memuat model, hampir selalu karena versi TensorFlow di `requirements.txt` beda dengan di Colab. Pakai `requirements.txt` yang dibuat otomatis oleh notebook.
 
